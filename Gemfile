@@ -7,17 +7,25 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
+gem 'rails', '~> 5.2.2'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3' ,'~>1.3.13'
+
+gem 'bootstrap-sass'
+
+gem 'sass-rails', '~>5.0'
+
+gem 'jquery-rails'
+
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 
-gem 'haml-rails'
+gem 'simple_form'
 
-gem 'paperclip', '~> 4.2' #at the writing of this post
+gem 'haml-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

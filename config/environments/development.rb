@@ -12,7 +12,7 @@ Rails.application.configure do
   # Show full error reports.
   config.consider_all_requests_local = true
 
-  Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
+  config.active_storage.service = :local
 
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join('tmp/caching-dev.txt').exist?
